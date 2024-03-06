@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Nunito", sans-serif;
+  user-select: none;
+  overflow: hidden;
+}
+
+.deluxe_ox_target {
+  position: relative;
+  display: flex;
+  align-items: start;
+  gap: 0.25rem;
+}
+
+.eye_container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 3.5rem;
+  color: #01497C;
+}
+
+.eye_container .ti {
+  position: absolute;
+  right: 0.75rem;
+  font-size: 2rem;
+  color: #F2F2F2;
+}
+
+.options_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.option {
+  position: absolute;
+  top: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  height: 1.5rem;
+  width: 12.5rem;
+  border-radius: 0.35rem;
+  background: #014F86;
+  opacity: 0.9;
+}
+
+.option:hover {
+  filter: brightness(125%);
+  cursor: pointer;
+}
+
+.option_icon {
+  font-size: 0.9rem;
+  color: #F2F2F2;
+}
+
+.option_label {
+  max-width: fit-content;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #F2F2F2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

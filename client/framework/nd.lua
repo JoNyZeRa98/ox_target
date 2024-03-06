@@ -2,7 +2,7 @@ local NDCore = exports["ND_Core"]
 
 local playerGroups = NDCore:getPlayer()?.groups or {}
 
-RegisterNetEvent("ND:characterLoaded", function(data)
+AddEventHandler("ND:characterLoaded", function(data)
     playerGroups = data.groups
 end)
 
