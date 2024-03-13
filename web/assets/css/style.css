@@ -35,21 +35,21 @@ body {
   color: #F2F2F2;
 }
 
-.options_container {
-  position: relative;
+.actions_container {
+  position: absolute;
+  top: 0.75rem;
+  left: 3.65rem;
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.4rem;
 }
 
 .option {
-  position: absolute;
-  top: 0.75rem;
   display: flex;
   flex-direction: row;
   justify-content: baseline;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.3rem;
   padding: 0.25rem 0.5rem;
   height: 1.5rem;
   width: 12.5rem;
