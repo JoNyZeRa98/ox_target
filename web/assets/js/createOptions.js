@@ -22,5 +22,5 @@ export const createOptions = (type, data, id, zoneId) => {
   option.zoneId = zoneId;
 
   option.addEventListener('click', onClick);
-  $('#optionsContainer').append(option);
+  $('#actionsContainer').append(option);
 };

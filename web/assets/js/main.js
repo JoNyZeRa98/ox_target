@@ -3,7 +3,7 @@ import { createOptions } from "./createOptions.js";
 $('#deluxeOxTarget').hide();
 
 window.addEventListener("message", (event) => {
-  $('#optionsContainer').empty();
+  $('#actionsContainer').empty();
 
   const eyeElement = $('#eye');
 
